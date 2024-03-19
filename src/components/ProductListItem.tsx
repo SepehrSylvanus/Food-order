@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet } from "react-native";
 
-import Colors from "@/src/constants/Colors";
+import Colors from "@/constants/Colors";
 import { Product } from "../types";
 
 export const defaultPizzaImage =
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 10,
     borderRadius: 10,
+    flex: 1,
   },
   title: {
     fontSize: 18,
